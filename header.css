@@ -1,0 +1,29 @@
+header {
+  background-image: url('https://api.time.com/wp-content/uploads/2014/12/98000069.jpg?w=800&quality=85');
+}
+
+.header .overlay {
+  background: linear-gradient(180deg, rgba(3,3,19,0.5228466386554622) 0%, rgba(4,16,18,0) 100%);
+}
+
+.header .overlay .logo-content {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.header .overlay .logo {
+  color: #FFF;
+  flex-grow: 1;
+}
+
+.header .overlay .content a {
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 1rem;
+  padding: 1.5rem 0;
+}
+
+.header .overlay .content a:hover {
+  border-bottom: 2px solid #FFF;
+}
