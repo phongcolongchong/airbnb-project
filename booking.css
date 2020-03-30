@@ -1,0 +1,84 @@
+/* BOOKING */
+
+.booking {
+  width: 30rem;
+  height: 31rem;
+  background-color: #FFF;
+  border-radius: 5px;
+  margin: 1.5rem 0 1rem 5rem;
+  padding: 2rem 2rem 1rem;
+}
+
+.booking .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.booking .info .check {
+  display: flex;
+}
+
+.booking .info .form-label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #555;
+}
+
+.booking .info .form-input {
+  font-size: 1rem;
+  border: 1px solid #EEE;
+  padding: 1rem;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+  outline: none;
+}
+
+.booking .info .where .form-input {
+  border-radius: 5px;
+}
+
+.booking .info .check-in .form-input {
+  border-radius: 5px 0 0 5px;
+  border-right-width: 0.5px;
+  padding-right: 2.5rem;
+}
+
+.booking .info .check-out .form-input {
+  border-radius: 0 5px 5px 0;
+  border-left-width: 0.5px;
+  padding-right: 2.5rem;
+}
+
+.booking .info .form-input:focus {
+  border: 1px solid green;
+}
+
+.booking .info .guests .btn-guests {
+  font-size: 1rem;
+  color: #666;
+  width: 100%;
+  margin: 0.5rem 0 1rem;
+  border-radius: 5px;
+  border: 1px solid #EEE;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.booking .btn {
+  font-size: 1rem;
+  padding: 1rem;
+  width: 7rem;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: #FFF;
+  cursor: pointer;
+  margin-left: 19rem;
+  margin-top: 0.5rem;
+  border: none;
+}

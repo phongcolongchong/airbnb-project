@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="./header.css">
+  <link rel="stylesheet" href="./booking.css">
 </head>
 
 <body>
@@ -32,6 +33,44 @@
   
         </div>
       </div>
+    </div> 
+
+    <!-- BOOKING -->
+  
+    <div class="booking">
+      <div class="title">
+        Book unique places to<br>
+        stay and things to do.
+      </div>
+      
+      <form action="" class="info">
+        <div class="where">
+          <label for="where" class="form-label">where</label><br>
+          <input type="text" id="where" class="form-input" placeholder="Anywhere">
+        </div>
+        
+        <div class="check">
+          <div class="check-in">
+            <label for="check-in" class="form-label">check-in</label><br>
+            <input type="text" id="check-in" class="form-input" placeholder="mm/dd/yyyy">
+          </div>
+          
+          <div class="check-out">
+            <label for="check-out" class="form-label">checkout</label><br>
+            <input type="text" id="check-out" class="form-input" placeholder="mm/dd/yyyy">
+          </div>
+        </div>
+          
+        <div class="guests">
+          <label for="guests" class="form-label">guests</label><br>    
+          <button class="btn-guests">
+            Guests
+            <i class="fas fa-chevron-down"></i>
+          </button>
+        </div>
+      </form>
+      
+      <button class="btn">Search</button>
     </div>
   </header>
 </body>
