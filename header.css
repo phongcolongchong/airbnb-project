@@ -2,6 +2,7 @@ header {
   background-image: url('https://api.time.com/wp-content/uploads/2014/12/98000069.jpg?w=800&quality=85');
   background-size: cover;
   background-position: center;
+  padding-bottom: 1.5rem;
 }
 
 .header .overlay {

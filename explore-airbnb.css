@@ -1,0 +1,39 @@
+/* EXPLORE AIRBNB */
+
+.explore-airbnb-title {
+  margin: 3rem 0 0 5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #222;
+}
+
+.explore-airbnb {
+  padding: 2rem 0 10rem 5rem;
+  border-bottom: 1px solid #DDD;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.explore-airbnb .link {
+  text-decoration: none;
+  color: #222;
+}
+
+.explore-airbnb .container {
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #DDD;
+  margin-right: 16px;
+}
+
+.explore-airbnb .container .image {
+  width: 130px;
+  height: 85px;
+  border-radius: 12px 0 0 12px;
+}
+
+.explore-airbnb .container .content {
+  margin-left: 24px;
+  font-weight: 400;
+}
