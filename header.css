@@ -16,8 +16,18 @@ header {
 }
 
 .header .overlay .logo {
+  display: flex;
   color: #FFF;
   flex-grow: 1;
+  text-decoration: none;
+  align-items: center;
+  margin-left: 3.5rem;
+}
+
+.header .overlay .logo .airbnb {
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 5px;
 }
 
 .header .overlay .content a {
