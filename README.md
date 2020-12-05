@@ -1,7 +1,7 @@
 # Airbnb interface
 ![logo](https://github.com/phongcolongchong/airbnb-project/blob/master/screenshot1.png?raw=true)
 
-This project will copy the basic interface of Airbnb website.
+This project will clone the UI of Airbnb website.
 
 [Link firebase](https://airbnb-interface.firebaseapp.com/)
 
